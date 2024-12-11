@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+body {
+    background: #090e22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: #fff;
+}
+
+.hide {
+    display: none;
+}
+
+.container {
+    min-width: 400px;
+    min-height: 400px;
+    background-color: #1d1e33;
+    padding: 2rem;
+}
+
+#calc-container h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+.form-inputs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.form-control {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+
+.form-control label {
+    font-weight: bold;
+    margin-bottom: 0.6rem;
+    color: #ccc;
+}
+
+.form-control input {
+    padding: 0.8rem 0.5rem;
+}
+
+.action-control {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 2rem;
+    gap: 1rem;
+}
+
+button {
+    text-transform: uppercase;
+    padding: 1rem 1.5rem;
+    background: #f44236;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0.9;
+    flex: 1;
+}
+
+button:hover {
+    opacity: 1;
+}
+
+#clear-btn {
+    background-color: #444;
+}
+
+#result-container {
+    text-align: center;
+
+}
+
+#result-container h3 {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+#imc-number {
+    font-size: 40px;
+    padding-bottom: 15px;
+    font-weight: bold;
+}
+
+#imc-number .low{
+    color: #e5e10a;
+}
+
+#imc-number .good{
+    color: #2ae106;
+}
+
+#imc-number .medium {
+    color: #ec7601;
+}
+
+#imc-number .high {
+    color: #ff0000;
+}
+
+#imc-info {
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+#imc-info .low{
+    color: #e5e10a;
+}
+
+#imc-info .good{
+    color: #2ae106;
+}
+
+#imc-info .medium {
+    color: #ec7601;
+}
+
+#imc-info .high {
+    color: #ff0000;
+}
+
+
+
+.table-header {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.table-data {
+    display: table-row; /* Define cada linha como parte da tabela */
+}
+
+.table-data p {
+    display: table-cell; /* Define cada item como uma célula da tabela */
+    text-align: center; /* Centraliza o texto */
+    padding: 10px; /* Adiciona espaçamento interno */
+}
+
+.table-data {
+    border-bottom: 1px solid #31323C; /* Linha separadora mais fina */
+}
+
+
+#back-btn {
+    margin-top: 30px;
+}
